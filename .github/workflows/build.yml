@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: apk
-          path: xpra-client-android/build/outputs/apk/debug/*.apk
+          path: xpra-client-android/build/outputs/apk/debug/xpra-client-android-1.0-debug.apk
   release:
     name: Release APK
     needs: apk
